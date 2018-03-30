@@ -1,3 +1,5 @@
+import random
+
 """
 File: PR07_DataArray.py
 Requirements: See PT07_DataArray
@@ -29,12 +31,41 @@ def load_data():
         "Pythagoras|Wisdom thoroughly learned will never be forgotten.",
     )
 
-
+# BROKEN WORD-WRAP BELOW. SEE "PR20_RandomQuote.py" FOR UNBROKEN WORD-WRAPPING. -Kyla 
 # TODO: Create a dictionary (see instructions for more information)
-def parse_data(data):
-    pass
+# def parse_data(data):
+#     quote = random.choice(list(data))
+#     quote_list = quote.split("|")
+#     quote_dict = {"Quote Key" : quote_list[1], "Author Key" : quote_list[0]}
+    
+#     return quote_dict
 
+# def show_stars(num):
+#     return num * "*"
+
+# def present_quote(quote_dict):
+#     presentation = ""
+#     counter = 1
+
+#     presentation += "\n" + show_stars(40) + "\n* "
+#     for char in quote_dict["Quote Key"]:
+#         if counter % 37 == 0:
+#             presentation += " *\n* "
+#             counter += 1
+#             presentation += char
+#         else:
+#             presentation += char
+#         counter += 1
+
+#     presentation += " *\n* --- " + quote_dict["Author Key"] + " *\n"
+#     presentation += show_stars(40) + "\n"
+
+#     return presentation
+
+        
 
 # Data loading / access test ...
-for ss, line in enumerate(load_data(), 1):
-    print(ss, line)
+# for ss, line in enumerate(load_data(), 1):
+#    print(ss, line)
+
+
